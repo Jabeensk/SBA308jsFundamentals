@@ -158,16 +158,17 @@ console.log(updatedResult);
   
       console.log(outputObject);
   
-      console.log("Assignment Scores:");
-      for (const assignmentId in learner) {
-        if (assignmentId !== "id" && assignmentId !== "avg") {
-          const assignmentScore = learner[assignmentId].toFixed(2);
-          const assignmentObject = {
-            [`Assignment ${assignmentId}`]: `${assignmentScore}%`,
-          };
-          console.log(assignmentObject);
-        }
-      }
+      // console.log("Assignment Scores:");
+
+      // for (const assignmentId in learner) {
+      //   if (assignmentId !== "id" && assignmentId !== "avg") {
+      //     const assignmentScore = learner[assignmentId].toFixed(2);
+      //     const assignmentObject = {
+      //       [`Assignment ${assignmentId}`]: `${assignmentScore}%`,
+      //     };
+      //     console.log(assignmentObject);
+        // }
+      // }
       console.log("------------");
     }
   }
